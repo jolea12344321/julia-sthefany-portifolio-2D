@@ -3,17 +3,40 @@
     box-sizing: border-box;
 font-family: 'Segoe UI', sans-serif; 
 }
+
  body{
     background-color: lightblue;
     color: black;
     line-height: 1.8;
     overflow-x: hidden;
- }*{margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
+ }
+
+ /*navigation*/
+ .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: rgb(20, 108, 173);
+-webkit-backdrop-filter: blur(10px);
+z-index: 1000;
+border-bottom: 1px saddlebrown (255, 255, 255 0.1);
 }
 
-   :root {
-    
-   }
+.logo {
+    font-size: 1.8rem;
+font-weight: 700;
+color: var(--accent);
+text-decoration: none;
+position: relative;
+padding-left: 2.5rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    }
