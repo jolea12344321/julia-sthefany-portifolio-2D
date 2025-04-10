@@ -1,42 +1,46 @@
-*{margin:0
-    padding:0;
-    box-sizing: border-box;
-font-family: 'Segoe UI', sans-serif; 
-}
-
- body{
-    background-color: lightblue;
-    color: black;
-    line-height: 1.8;
-    overflow-x: hidden;
- }
-
- /*navigation*/
- .navbar {
-    position: fixed;
-    top: 0;
-    width: 70%;
-    padding: 1.5rem 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-background-color: rgb(20, 108, 173);
--webkit-backdrop-filter: blur(10px);
-z-index: 1000;
-border-bottom: 1px saddlebrown (255, 255, 255 0.1);
-}
-
-.logo {
-    font-size: 1.8rem;
-font-weight: 700;
-color: var(--accent);
-text-decoration: none;
-position: relative;
-padding-left: 2.5rem;
-}
-
-.nav-links {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!--navigation-->  
+  <nav class ="navbar">
+    <a href ="#home" class ="logo"> devjunior</a>
+    <ul class ="nav links">
+        <li><a href = "#home">home</a></li>
+        <li><a href = "#skills">skills</a></li>
+        <li><a href = "#projects">projects</a></li>
+        <li><a href = "#contact">ccontact</a></li>
+    </nav>
+    </ul>
+    <!--hero section-->
+    <section id = "home" class="hero">
+        <div class = "hero-contect">
+            <h1>front-end developer</h1>
+            <p>texto sobre a gente</p>
+            <a href = "#contact" class="cta-buton"> contato</a>
+        </div>
+        <div class="Hero-img">
+            <img src="imagem" alt="profile" class="profile">
+            </div>
+                </section>
+                <!---Skills Section--->
+                <section id="skills" class="skills">
+                <h2> Mihas habilidades</h2>
+                <div class="skill-grid">
+                <div class="skill-card">
+            <i class="fas fa server"></i>
+            <h3>ui/ux design</h3>
+            <p>figma, adobe xd</p>
+                </div>
+                </div>
+                </section>
+            </body>
+            </html>
+    </section>
+</body>
+</html>
